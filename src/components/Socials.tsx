@@ -1,17 +1,17 @@
 import * as React from "react";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import * as styles from "./socials.module.scss";
+import "./socials.css";
 
 const Socials = () => (
-  <div className={styles.socials}>
+  <div className="socials">
     <a
       href="https://github.com/kvklink"
       title="GitHub"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FiGithub className={styles.icon} />
+      <FiGithub className="icon" />
     </a>
     <a
       href="https://linkedin.com/in/karel-van-klink"
@@ -19,7 +19,7 @@ const Socials = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FaLinkedinIn className={styles.icon} />
+      <FaLinkedinIn className="icon" />
     </a>
     <a
       href="https://instagram.com/karelorkyle"
@@ -27,7 +27,7 @@ const Socials = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FaInstagram className={styles.icon} />
+      <FaInstagram className="icon" />
     </a>
   </div>
 );
