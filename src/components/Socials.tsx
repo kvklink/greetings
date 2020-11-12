@@ -15,7 +15,7 @@ const Socials = () => (
     </a>
     <a
       href="https://linkedin.com/in/karel-van-klink"
-      title="GitHub"
+      title="LinkedIn"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -23,7 +23,7 @@ const Socials = () => (
     </a>
     <a
       href="https://instagram.com/karelorkyle"
-      title="GitHub"
+      title="Instagram"
       target="_blank"
       rel="noopener noreferrer"
     >
