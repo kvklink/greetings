@@ -13,12 +13,12 @@ interface LastFmBoxProps {
 
 export default function LastFmBox({ song }: LastFmBoxProps) {
   return (
-    <a href={song.url} target="_blank">
-      <div className="music-widget">
+    <a href={song.url} className="music-widget" target="_blank">
+      <div>
         <img className="song-art" src={song.art} />
         <div className="song-text-box">
-          <p className="song-title">{song.name}</p>
-          <p className="song-artist">by {song.artist}</p>
+          <p>{song.name}</p>
+          <p>by {song.artist}</p>
         </div>
       </div>
     </a>

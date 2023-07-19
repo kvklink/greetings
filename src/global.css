@@ -11,3 +11,31 @@ html {
     rgba(0, 180, 169, 1) 100%
   );
 }
+
+a {
+  background-color: rgba(255, 207, 254, 0.3);
+  outline: 0;
+  border: 1px solid black;
+  /* position: relative; */
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+a:after {
+  content: "";
+  background-color: #ffe44c8d;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+a:hover:after {
+  top: 0px;
+  left: 0px;
+}
