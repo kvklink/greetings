@@ -11,7 +11,12 @@ export default function Content() {
     console.log("Last FM info updated:");
     console.log(last_fm);
     if (last_fm.status === "playing") {
-      update_box(<LastFmBox song={last_fm.song} />);
+      update_box(
+        <>
+          <p>I'm listening to...</p>
+          <LastFmBox song={last_fm.song} />
+        </>
+      );
     }
   }, [last_fm.status]);
 
