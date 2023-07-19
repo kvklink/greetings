@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+
+.music-widget {
+  margin-top: 0;
+  height: fit-content;
+  display: flex;
+  background-color: rgba(255, 207, 254, 0.3);
+  position: relative;
+}
+
+.song-art {
+  height: min(8rem, 25vw);
+}
+
+.song-text-box {
+  padding-left: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: min(8rem, 25vw);
+}
+
+.song-title {
+}
+
+.song-artist {
+}

@@ -1,8 +1,9 @@
 .socials {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 14vh;
-  margin-top: 53vh;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .icon {

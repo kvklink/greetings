@@ -1,9 +1,18 @@
-.content {
-  margin: 30vh 0 2.5vh 0;
-  text-align: center;
-  
+* {
   font-family: "Kosugi Maru", sans-serif;
-  font-size: 7.5vh;
   font-weight: 550;
   color: rgba(175, 43, 191, 0.85);
+}
+
+.title {
+  margin: 30vh 0 2.5vh 0;
+  text-align: center;
+  font-size: 7.5vh;
+}
+
+.music-box {
+  height: 10vh;
+  margin: auto;
+  margin-top: 5rem;
+  width: min(75vw, 25rem);
 }
