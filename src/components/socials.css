@@ -1,8 +1,28 @@
 .socials {
-  margin-left: auto;
-  margin-right: auto;
-  width: 14vh;
-  margin-top: 53vh;
+  margin: 0 auto;
+  width: fit-content;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+}
+
+.socials > a {
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.socials > a:after {
+  top: 4px;
+  left: 4px;
+}
+
+.socials > a:hover:after {
+  top: 0px;
+  left: 0px;
 }
 
 .icon {

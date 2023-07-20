@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+.music-widget {
+  margin-top: 0;
+  height: fit-content;
+  display: flex;
+  position: relative;
+}
+
+.song-art {
+  height: min(8rem, 25vw);
+  padding: 2px;
+}
+
+.song-text-box {
+  padding-left: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: min(8rem, 25vw);
+}
